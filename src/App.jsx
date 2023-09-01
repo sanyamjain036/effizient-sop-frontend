@@ -106,7 +106,8 @@ function App() {
     <>
       <div className='w-3/4 mx-auto py-8'>
         <h1 className='text-center text-3xl	'>Effizient Immigration Inc.</h1>
-        <section className=' my-12 py-8'>
+        <h1 className='text-center text-l text-slate-600	mt-4'>Get Customizable SOP on your Email!</h1>
+        <section className=' my-12'>
           <form onSubmit={handleSubmit}>
             <div className='grid gap-4 md:grid-cols-2 mb-6'>
               <Input
