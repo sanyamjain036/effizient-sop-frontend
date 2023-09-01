@@ -69,7 +69,7 @@ function App() {
         setErrorState(false);
       }, 4000)
 
-      // setFormData(DEFAULT_FORM);
+      setFormData(DEFAULT_FORM);
     }
     catch (err) {
       console.log(err.response.data.message);
